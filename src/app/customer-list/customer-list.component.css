@@ -1,0 +1,9 @@
+.custom-card{
+  width: 20rem;
+  margin-left:500px;
+  margin-top: 200px;
+}
+
+.customerInfo{
+  cursor: pointer;
+}

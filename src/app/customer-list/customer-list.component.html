@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="card custom-card">
+    <ul
+      class="list-group list-group-flush"
+
+    >
+      <li
+        class="list-group-item text-center customerInfo"
+        *ngFor=" let customer of customers;let i=index"
+        [routerLink]="['/customer-info']"
+      >
+        {{ customer }}
+      </li>
+    </ul>
+  </div>
+</div>
